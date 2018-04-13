@@ -1,7 +1,7 @@
 {
-  "name": "nodebb-theme-quickstart",
+  "name": "nodebb-theme-rpa",
   "version": "0.0.0",
-  "description": "Enter a description here",
+  "description": "RPA NodeBB Theme",
   "main": "theme.less",
   "keywords": [
 
