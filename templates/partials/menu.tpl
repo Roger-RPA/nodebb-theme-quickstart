@@ -157,7 +157,7 @@
 					</li>
 					<!-- ENDIF allowRegistration -->
 					<li>
-						<a href="https://www.rebuiltparishassociation.com/login?redirect=true">
+						<a href="https://www.rebuiltparishassociation.com/login?redirect=forum">
 							<i class="fa fa-sign-in visible-xs-inline"></i>
 							<span>[[global:login]]</span>
 						</a>
@@ -239,7 +239,7 @@
 				<!-- ELSE -->
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a href="{relative_path}/login">
+						<a href="https://www.rebuiltparishassociation.com/login?redirect=forum">
 							<i class="fa fa-sign-in visible-xs-inline"></i>
 							<span>[[global:login]]</span>
 						</a>

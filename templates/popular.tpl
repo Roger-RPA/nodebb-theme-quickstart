@@ -10,7 +10,7 @@
 			<!-- IF loggedIn -->
 			<button component="category/post" id="new_topic" class="btn btn-primary">[[category:new_topic_button]]</button>
 			<!-- ELSE -->
-			<a component="category/post/guest" href="{config.relative_path}/login" class="btn btn-primary">[[category:guest-login-post]]</a>
+			<a component="category/post/guest" href="https://www.rebuiltparishassociation.com/login?redirect=forum" class="btn btn-primary">[[category:guest-login-post]]</a>
 			<!-- ENDIF loggedIn -->
 		</div>
 		<ul class="nav nav-pills pull-right" component="popular/tab">
