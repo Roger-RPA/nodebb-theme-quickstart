@@ -2,16 +2,10 @@
 	"id": "nodebb-theme-rpa",
 	"library": "./lib/theme.js",
 	"hooks": [
-		{
-			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas"
-		}
+
 	],
 	"scripts": [
-		"lib/client.js",
-		"../nodebb-theme-slick/lib/theme.js",
-		"../nodebb-theme-slick/lib/slick.js",
-		"../nodebb-theme-slick/lib/chats.js",
-		"../nodebb-theme-slick/lib/quickreply.js",
-		"../nodebb-theme-slick/lib/modules/slideout.min.js"
+		"lib/client.js"
+
 	]
 }
