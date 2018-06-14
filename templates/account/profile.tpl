@@ -80,11 +80,11 @@
 			</div>
 
 			<div class="text-center profile-meta">
-				<span>[[user:joined]]</span>
-				<strong class="timeago" title="{joindateISO}"></strong>
+				<!--<span>[[user:joined]]</span>-->
+				<!--<strong class="timeago" title="{joindateISO}"></strong>-->
 
-				<span>[[user:lastonline]]</span>
-				<strong class="timeago" title="{lastonlineISO}"></strong><br />
+				<!--<span>[[user:lastonline]]</span>-->
+				<!--<strong class="timeago" title="{lastonlineISO}"></strong><br />-->
 
 				<!-- IF email -->
 				<span>[[user:email]]</span>
