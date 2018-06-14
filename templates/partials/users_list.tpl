@@ -11,7 +11,7 @@
 	<div class="user-info">
 		<span class="username">
 			<i component="user/status" class="fa fa-circle status {users.status}" title="[[global:{users.status}]]"></i>
-			<a href="{config.relative_path}/user/{users.userslug}">{users.fullname}</a>
+			<a href="{config.relative_path}/user/{users.userslug}">{users.username}</a>
 		</span>
 
 		<!-- IF section_joindate -->
