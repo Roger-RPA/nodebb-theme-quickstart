@@ -1,1 +1,62 @@
 @import "../nodebb-theme-slick/theme";
+
+.profile-meta span {
+  display: block;
+}
+
+.users-container .users-box .user-info .username {
+  white-space: normal;
+}
+
+.timeago {
+    display: none;
+}
+.title > small {
+    visibility:collapse;
+    display: inline-block;
+}
+.title > small > * {
+    visibility:visible;
+}
+.hidden-xs > a {
+    display: list-item;
+    list-style: inside disc;
+}
+
+.navbar-header span {
+    display: none;
+}
+.navbar-header a {
+    display: block;
+    background: url(https://rebuiltparishassociation.s3.amazonaws.com/logo-small-nav.png?AWSAccessKeyId=AKIAJAVNIVG8BIBLSGS);
+    width: 90px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .navbar-header { float: left }
+    // .navbar-dropdown { display: inline-block; }
+    .pagination-block.visible-lg.visible-md {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 1090px) {
+    #main-nav .navigation-link .visible-xs-inline {
+        display: inline !important;
+    }
+    #main-nav .tooltip {
+        display: none !important;
+    }
+}
+
+.page-login .guest-welcome {
+    display: none;
+}
+
