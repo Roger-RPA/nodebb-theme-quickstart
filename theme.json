@@ -2,5 +2,6 @@
     "id": "nodebb-theme-rpa",
     "name": "RPA Theme",
     "description": "Child of Slick theme; does some html-level customizations",
-    "url": "https://github.com/Roger-RPA/nodebb-theme-rpa"
+    "url": "https://github.com/Roger-RPA/nodebb-theme-rpa",
+    "baseTheme": "nodebb-theme-slick"
 }
