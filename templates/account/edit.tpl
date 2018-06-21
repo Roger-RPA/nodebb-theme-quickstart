@@ -56,13 +56,15 @@
 			<div class="row">
 				<div class="<!-- IF !sso.length -->col-md-12 col-sm-12<!-- ELSE -->col-md-7 col-sm-12<!-- ENDIF !sso.length -->">
 					<form>
-	
+
+						<!-- IF isAdminOrGlobalModeratorOrModerator -->
 						<div class="form-group">
 							<label class="control-label" for="inputFullname">[[user:fullname]]</label>
 							<div class="controls">
 								<input class="form-control" type="text" id="inputFullname" placeholder="[[user:fullname]]" value="{fullname}">
 							</div>
 						</div>
+						<!-- ENDIF isAdminOrGlobalModeratorOrModerator -->
 						<!-- IF allowWebsite -->
 						<div class="form-group">
 							<label class="control-label" for="inputWebsite">[[user:website]]</label>
