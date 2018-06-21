@@ -17,18 +17,22 @@
 				</div>
 				<ul class="list-group">
 					<a id="changePictureBtn" href="#" class="list-group-item">[[user:change_picture]]</a>
+					<!-- IF isAdminOrGlobalModeratorOrModerator -->
+
 					<!-- IF !username:disableEdit -->
-					<!--<a href="{config.relative_path}/user/{userslug}/edit/username" class="list-group-item">[[user:change_username]]</a>-->
+					<a href="{config.relative_path}/user/{userslug}/edit/username" class="list-group-item">[[user:change_username]]</a>
 					<!-- ENDIF !username:disableEdit -->
 					<!-- IF !email:disableEdit -->
-					<!--<a href="{config.relative_path}/user/{userslug}/edit/email" class="list-group-item">[[user:change_email]]</a>-->
+					<a href="{config.relative_path}/user/{userslug}/edit/email" class="list-group-item">[[user:change_email]]</a>
 					<!-- ENDIF !email:disableEdit -->
 					<!-- IF canChangePassword -->
-					<!--<a href="{config.relative_path}/user/{userslug}/edit/password" class="list-group-item">[[user:change_password]]</a>-->
+					<a href="{config.relative_path}/user/{userslug}/edit/password" class="list-group-item">[[user:change_password]]</a>
 					<!-- ENDIF canChangePassword -->
 					<!-- BEGIN editButtons -->
 					<a href="{config.relative_path}{editButtons.link}" class="list-group-item">{editButtons.text}</a>
 					<!-- END editButtons -->
+					<!-- ENDIF isAdminOrGlobalModeratorOrModerator -->
+
 				</ul>
 
 				<!-- IF config.requireEmailConfirmation -->
